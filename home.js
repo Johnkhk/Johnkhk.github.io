@@ -18,7 +18,7 @@ var section = window.location.pathname;
       console.log("YEEEEEEEEET");
       $(window).scrollTop(0);
       var toHide = $(this).data("hide");
-      var toShow = $(this).attr("href");
+      var toShow = "#" + $(this).attr("href");
       var url = "/" + $(this).attr("href");
       console.log(this)
       console.log(toShow)
